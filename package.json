@@ -1,0 +1,31 @@
+{
+  "name": "edu-project",
+  "version": "1.0.0",
+  "description": "education site from zero to hero",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BoburF/Edu-project.git"
+  },
+  "author": "Bobur Adbullayev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BoburF/Edu-project/issues"
+  },
+  "homepage": "https://github.com/BoburF/Edu-project#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "joi": "^17.6.0",
+    "mongoose": "^6.4.1"
+  }
+}
